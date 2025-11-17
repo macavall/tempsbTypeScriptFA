@@ -1,7 +1,7 @@
 TypeScript Function App on Linux using Service Bus Trigger
 
 Issue:  
-- Service Bus Trigger attributes in code for `cardinality` is not shown in the documentation [Host.JSON Azure Function App Trigger Documentation]()
+- Service Bus Trigger attributes in code for `cardinality` is not shown in the documentation [Host.JSON Azure Function App Trigger Documentation](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-service-bus-trigger?tabs=python-v2%2Cisolated-process%2Cnodejs-v4%2Cextensionv5&pivots=programming-language-typescript)
 - However, the Microsoft JavaScript Library has the `cardinality` attribute listed [https://github.com/Azure/azure-functions-nodejs-library/blob/v4.x/types/serviceBus.d.ts]([url](https://github.com/Azure/azure-functions-nodejs-library/blob/v4.x/types/serviceBus.d.ts))
 - When using the `cardinality` in code, this works as expected for batched Service Bus Messages
 
